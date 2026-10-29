@@ -12,6 +12,7 @@
 node word-counter.js "Привет, мир! Это простой пример."
 # Количество слов: 5
 node word-counter.js --file README.md
+$OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 "Один два три" | node word-counter.js
 ```
 
