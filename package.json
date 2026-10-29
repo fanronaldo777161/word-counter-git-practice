@@ -1,0 +1,9 @@
+{
+  "name": "word-counter-git-practice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Подсчёт слов в тексте и практика работы с Git",
+  "scripts": {
+    "start": "node word-counter.js"
+  }
+}
